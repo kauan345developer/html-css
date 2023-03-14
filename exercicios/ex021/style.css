@@ -1,0 +1,17 @@
+h1{
+    background-color:palevioletred ;
+    height: 500px;
+    width: 500px;
+
+    padding: 10px;
+    
+    border-width: 10px;
+    border-style:double ;
+    border-color: black;
+
+    margin: 50px 40px 20px 10px;
+
+    outline: 10px;
+    outline-style: solid;
+    outline-color: chartreuse;
+}

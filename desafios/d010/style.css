@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+@font-face {
+    font-family:'droid' ;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header{
+    background-image: linear-gradient(to bottom, #30AB67,#268952,#1A5C38 ) ;
+    height: 118px;
+    width: 100%;
+    
+}
+header>h1{
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    font-family:'Bebas Neue', 'cursive';
+    
+}
+header>p{
+    text-align: center;
+    color: white;
+}
+body{
+    margin:0px ;
+    background-color:#84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav>a{
+    text-align: left;
+    color:white ;
+    text-decoration:none ;
+    padding:9px;
+   font-weight: 200;
+   font-family: sans-serif;
+   
+}
+nav>a:hover{
+    background-color: gray;
+    
+}
+main{
+    background-color: white;
+    
+    
+
+}
+main>h1{
+    font-family:'droid','times' ;
+    text-align:center ;
+    margin: 0px;
+
+}
+main>p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main>h2{
+    font-family:'droid' ;
+    background-image: linear-gradient(to right, #30ab6756,white);
+}
+
+aside>h3{
+    color: white;
+    background-color: #268952;
+    font-weight: 100;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0px;
+     padding-left: 5px;
+}
+.uaside{
+    border-radius:  0px 0px 10px 10px;
+    padding-left: 5px;
+}
+.aside{
+    background-color: #31d87c91;
+    margin: 0px;
+    padding-left: 5px;
+    
+}
+footer{
+    background-color: #1A5C38;
+    color: whitesmoke;
+    text-align: center;
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+#taside{
+margin: 0px;
+padding-top: 10px;
+}
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #1A5C38;
+}

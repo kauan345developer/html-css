@@ -1,0 +1,26 @@
+body{
+    background-color: beige;
+    font-family:Arial, Helvetica, sans-serif
+}
+.twitter:hover{
+    color: cornflowerblue;
+}
+.youtube:hover{
+    color:rgb(233, 4, 4) ;
+
+}
+a{
+    text-decoration: none;
+}
+.twitter::before{
+    content:' ☼ ' ;
+}
+.youtube::before{
+    content:' ❄ ' ;
+}
+.youtube:active{
+    color: rgb(121, 0, 0);
+}
+.twitter:active{
+    color: rgb(2, 2, 139);
+}
